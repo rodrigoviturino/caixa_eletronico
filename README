@@ -1,0 +1,4 @@
+Ao preencher o formulario do login, é feito uma consulta no banco e ao encontrar resultado, é jogado em uma variavel esse resultado.
+Após a variavel estar com valor, selecionamos o campo ID assim ->  $resultadoBanco['id'] e jogamos esse valor na sessão.
+    Variavel $_SESSION['banco']
+    O Resultado ok, é realizado o login e o id é jogado na sessão
